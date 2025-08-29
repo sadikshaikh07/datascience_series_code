@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Book",
+      "price": 19.99,
+      "category": "Education"
+    },
+    {
+      "id": 3,
+      "name": "Coffee",
+      "price": 4.99,
+      "category": "Food"
+    }
+  ],
+  "metadata": {
+    "created": "2024-01-01",
+    "version": "1.0"
+  }
+}
