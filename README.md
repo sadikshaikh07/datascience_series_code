@@ -27,13 +27,11 @@ This repository contains **educational examples** for a complete data science an
 
 ## 🚀 Quick Start
 
+### **Option A: Start with AI Fundamentals (Recommended for Beginners)**
 ```bash
 # Clone the repository
 git clone https://github.com/sadikshaikh07/datascience_series_code.git
-cd datascience_series_code
-
-# Start with AI Fundamentals (recommended for beginners)
-cd ai-fundamentals-series
+cd datascience_series_code/ai-fundamentals-series
 
 # Install dependencies
 pip install -r shared/requirements.txt
@@ -46,6 +44,19 @@ cp shared/.env.example .env
 python 01-ai-agents/examples/demo_all_agents.py
 ```
 
+### **Option B: Jump to RAG Fundamentals (If You've Completed Series 1)**
+```bash
+# After cloning the repository
+cd datascience_series_code/rag-series
+
+# Install RAG dependencies
+pip install -r requirements.txt
+
+# Run complete RAG fundamentals demo (no API keys needed!)
+cd 01-rag-fundamentals/examples
+python3 demo_all_rag_fundamentals.py
+```
+
 ---
 
 ## 🏗️ Repository Structure
@@ -54,37 +65,60 @@ python 01-ai-agents/examples/demo_all_agents.py
 datascience_series_code/
 ├── README.md                           # This file - complete series overview
 │
-├── 📁 ai-fundamentals-series/          # ⭐ START HERE - Core AI concepts
-│   ├── 01-ai-agents/                   # AI decision-making patterns
-│   ├── 02-prompt-engineering/          # Reliable AI interactions
-│   ├── 03-structured-outputs/          # JSON generation techniques
-│   ├── 04-function-calling/            # Tool integration approaches
-│   ├── 05-external-data/               # Real-world data connections
-│   └── shared/                         # Common utilities and providers
+├── 📁 ai-fundamentals-series/          # ⭐ SERIES 1 - Core AI concepts ✅ COMPLETE
+│   ├── 01-ai-agents/                   # AI decision-making patterns ✅
+│   ├── 02-prompt-engineering/          # Reliable AI interactions ✅
+│   ├── 03-structured-outputs/          # JSON generation techniques ✅
+│   ├── 04-function-calling/            # Tool integration approaches ✅
+│   ├── 05-external-data/               # Real-world data connections ✅
+│   └── shared/                         # Common utilities and providers ✅
 │
-├── 📁 rag-systems/                     # 🔍 COMING SOON - Knowledge systems
+├── 📁 rag-series/                      # 🔍 SERIES 2 - Knowledge systems
+│   ├── 01-rag-fundamentals/            # Blog 2.1 ✅ COMPLETE & TESTED
+│   ├── 02-embeddings-indexes/          # Blog 2.2 📅 PLANNED
+│   ├── 03-rag-pipeline/               # Blog 2.3 📅 PLANNED  
+│   └── 04-production-rag/             # Blog 2.4 📅 PLANNED
 │ 
-├── 📁 traditional-ml/                  # 📊 COMING SOON - Data science foundations
+├── 📁 traditional-ml/                  # 📊 SERIES 3 - Data science foundations 📅 PLANNED
 │ 
-├── 📁 modern-agent-protocols/          # 🤝 COMING SOON - Agent communication
+├── 📁 modern-agent-protocols/          # 🤝 SERIES 4 - Agent communication 📅 PLANNED
 │ 
-├── 📁 mlops-production/                # 🚀 COMING SOON - Production deployment
+├── 📁 mlops-production/                # 🚀 SERIES 5 - Production deployment 📅 PLANNED
 │ 
-├── 📁 deep-learning/                   # 🧠 COMING SOON - Neural networks
+├── 📁 deep-learning/                   # 🧠 SERIES 6 - Neural networks 📅 PLANNED
 │ 
-├── 📁 computer-vision/                 # 👁️ COMING SOON - Visual AI
+├── 📁 computer-vision/                 # 👁️ SERIES 7 - Visual AI 📅 PLANNED
 │ 
-├── 📁 natural-language-processing/     # 📝 COMING SOON - Text AI
+├── 📁 natural-language-processing/     # 📝 SERIES 8 - Text AI 📅 PLANNED
 │ 
-├── 📁 time-series-forecasting/         # 📈 COMING SOON - Temporal data
+├── 📁 generative-ai-llms/              # 🎨 SERIES 9 - LLMs & Generation 📅 PLANNED
 │ 
-├── 📁 explainable-ai/                  # 🔍 COMING SOON - AI interpretability  
+├── 📁 time-series-forecasting/         # 📈 SERIES 10 - Temporal data 📅 PLANNED
+│ 
+├── 📁 explainable-ai/                  # 🔍 SERIES 11 - AI interpretability 📅 PLANNED  
 │ 
 └── 📁 shared/                          # Common utilities across all series
     ├── utils/                          # Helper functions and tools
     ├── datasets/                       # Sample datasets for examples
     └── requirements/                   # Dependency management
 ```
+
+---
+
+## 📊 Current Status & Progress
+
+### ✅ **Completed & Tested**
+- **Series 1: AI Fundamentals & Agent Basics** - All 5 blogs with working code
+- **Series 2: RAG Systems** - Blog 2.1 complete with comprehensive examples
+
+### 🚧 **In Development**
+- **Series 2: RAG Systems** - Blogs 2.2-2.4 (planned)
+- **Series 3: Traditional ML** - Foundation series (parallel with Series 2)
+
+### 📋 **Roadmap Status**
+- **11 Total Series** planned following learner-first progression
+- **2/11 Series** have active code development 
+- **Clear prerequisite paths** defined for optimal learning progression
 
 ---
 
@@ -102,32 +136,51 @@ This repository accompanies the **Complete Data Science & AI Blog Series** publi
 - Function Calling and tool integration approaches
 - External Data connections for real-world applications
 
-### 🔍 **Coming Soon: RAG Systems & Knowledge Management**
-*Connecting AI to external knowledge sources*
+### 🔍 **Available Now: RAG Systems & Knowledge Management** ✅
+[📖 Read Blog 2.1: RAG Fundamentals](https://medium.com/@sadikkhadeer/rag-fundamentals-solving-the-knowledge-problem-7d4f6b0eda3a)
 
-### 📊 **Coming Soon: Traditional Machine Learning Foundations**
-*Essential data science and statistical learning methods*
+**Status:** Blog 2.1 Complete & All Code Tested ✅
 
-### 🤝 **Coming Soon: Modern Agent Protocols (MCP & A2A)**
-*Industry-standard protocols for agent communication*
+**Topics covered:**
+- RAG fundamentals and core concepts (corpus, chunks, embeddings)
+- Similarity search with sentence transformers
+- Embedding visualization and different metrics comparison
+- Complete RAG pipeline from query to retrieval
+- Real-world HR policy bot scenario with working examples
 
-### 🚀 **Coming Soon: MLOps & Production AI Systems**
-*Deploying and maintaining AI in production*
+**Code Location:** [`rag-series/01-rag-fundamentals/`](rag-series/01-rag-fundamentals/)
 
-### 🧠 **Coming Soon: Deep Learning & Neural Networks**
-*Advanced AI architectures and modern techniques*
+**Coming in RAG Series:**
+- Blog 2.2: Vector databases (FAISS, Pinecone, Chroma)
+- Blog 2.3: Full RAG pipeline with LLM generation
+- Blog 2.4: Production RAG systems and deployment
 
-### 👁️ **Coming Soon: Computer Vision Applications**
-*Visual AI for real-world applications ($41B projected market)*
+### 📊 **Coming Next: Traditional Machine Learning Foundations** (Series 3)
+*Essential data science and statistical learning methods - can run in parallel with Series 2*
 
-### 📝 **Coming Soon: Natural Language Processing**
-*Text understanding, generation, and modern NLP*
+### 🤝 **Modern Agent Protocols (MCP & A2A)** (Series 4)  
+*Industry-standard protocols for agent communication - requires Series 1 & 2*
 
-### 📈 **Coming Soon: Time Series Analysis & Forecasting**
-*Predicting the future with temporal data*
+### 🚀 **MLOps & Production AI Systems** (Series 5)
+*Deploying and maintaining AI in production - requires Series 3*
 
-### 🔍 **Coming Soon: Explainable AI & Model Interpretability**
-*Understanding and trusting AI decisions*
+### 🧠 **Deep Learning & Neural Networks** (Series 6)
+*Advanced AI architectures and modern techniques - requires Series 3*
+
+### 👁️ **Computer Vision Applications** (Series 7)
+*Visual AI for real-world applications ($41B projected market) - requires Series 3 & 6*
+
+### 📝 **Natural Language Processing** (Series 8)
+*Text understanding, generation, and modern NLP - requires Series 3*
+
+### 🎨 **Generative AI & LLMs** (Series 9)  
+*Large language models and generative applications - requires Series 1, 2, 6*
+
+### 📈 **Time Series Analysis & Forecasting** (Series 10)
+*Predicting the future with temporal data - requires Series 3*
+
+### 🔍 **Explainable AI & Model Interpretability** (Series 11)
+*Understanding and trusting AI decisions - requires Series 3 & 6*
 
 ---
 
@@ -153,9 +206,11 @@ This repository accompanies the **Complete Data Science & AI Blog Series** publi
 ## 🚀 Getting Started Guide
 
 ### **Step 1: Choose Your Learning Path**
-- **New to AI?** → Start with [`ai-fundamentals-series/`](ai-fundamentals-series/)
-- **Have ML experience?** → Jump to your area of interest
-- **Want production skills?** → Focus on MLOps and deployment
+- **New to AI?** → Start with [`ai-fundamentals-series/`](ai-fundamentals-series/) (Series 1)
+- **Completed Series 1?** → Continue with [`rag-series/`](rag-series/) (Series 2) 
+- **Want traditional ML?** → Start [`traditional-ml/`] (Series 3) - can run parallel with Series 2
+- **Have ML experience?** → Jump to your specialization after checking prerequisites
+- **Want production skills?** → Complete Series 3 first, then focus on Series 5 (MLOps)
 
 ### **Step 2: Set Up Your Environment**
 ```bash

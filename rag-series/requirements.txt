@@ -1,0 +1,22 @@
+# RAG Series Requirements
+# Core dependencies for all RAG examples
+
+# Embedding and similarity search
+sentence-transformers>=2.2.0
+scikit-learn>=1.3.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional: For advanced examples in future blogs
+# faiss-cpu>=1.7.0  # Vector database
+# chromadb>=0.4.0   # Vector database
+# openai>=1.0.0     # LLM integration
+# python-dotenv>=1.0.0  # Environment variables
+
+# Development and testing
+# pytest>=7.0.0
+# jupyter>=1.0.0
