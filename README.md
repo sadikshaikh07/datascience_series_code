@@ -75,7 +75,7 @@ datascience_series_code/
 │
 ├── 📁 rag-series/                      # 🔍 SERIES 2 - Knowledge systems
 │   ├── 01-rag-fundamentals/            # Blog 2.1 ✅ COMPLETE & TESTED
-│   ├── 02-embeddings-indexes/          # Blog 2.2 📅 PLANNED
+│   ├── 02-embeddings-indexes/          # Blog 2.2 ✅ COMPLETE & TESTED
 │   ├── 03-rag-pipeline/               # Blog 2.3 📅 PLANNED  
 │   └── 04-production-rag/             # Blog 2.4 📅 PLANNED
 │ 
@@ -109,10 +109,10 @@ datascience_series_code/
 
 ### ✅ **Completed & Tested**
 - **Series 1: AI Fundamentals & Agent Basics** - All 5 blogs with working code
-- **Series 2: RAG Systems** - Blog 2.1 complete with comprehensive examples
+- **Series 2: RAG Systems** - Blogs 2.1 & 2.2 complete with comprehensive examples
 
 ### 🚧 **In Development**
-- **Series 2: RAG Systems** - Blogs 2.2-2.4 (planned)
+- **Series 2: RAG Systems** - Blogs 2.3-2.4 (planned)
 - **Series 3: Traditional ML** - Foundation series (parallel with Series 2)
 
 ### 📋 **Roadmap Status**
@@ -137,11 +137,12 @@ This repository accompanies the **Complete Data Science & AI Blog Series** publi
 - External Data connections for real-world applications
 
 ### 🔍 **Available Now: RAG Systems & Knowledge Management** ✅
-[📖 Read Blog 2.1: RAG Fundamentals](https://medium.com/@sadikkhadeer/rag-fundamentals-solving-the-knowledge-problem-7d4f6b0eda3a)
+[📖 Read Blog 2.1: RAG Fundamentals](https://medium.com/@sadikkhadeer/rag-fundamentals-solving-the-knowledge-problem-7d4f6b0eda3a)  
+[📖 Read Blog 2.2: Embeddings, Indexes & Retrieval Mechanics](https://medium.com/@sadikkhadeer/embeddings-indexes-retrieval-mechanics-7d1f189b91c2)
 
-**Status:** Blog 2.1 Complete & All Code Tested ✅
+**Status:** Blogs 2.1 & 2.2 Complete & All Code Tested ✅
 
-**Topics covered:**
+**Blog 2.1 Topics:**
 - RAG fundamentals and core concepts (corpus, chunks, embeddings)
 - Similarity search with sentence transformers
 - Embedding visualization and different metrics comparison
@@ -150,8 +151,16 @@ This repository accompanies the **Complete Data Science & AI Blog Series** publi
 
 **Code Location:** [`rag-series/01-rag-fundamentals/`](rag-series/01-rag-fundamentals/)
 
+**Blog 2.2 Topics:**
+- Embedding fundamentals and semantic meaning representation
+- Similarity metrics: cosine, dot product, Euclidean distance
+- Indexing structures: FAISS (Flat, HNSW, IVF, PQ) with benchmarking
+- Vector databases: Chroma and Qdrant with production features
+- Complete RAG pipeline integration with hybrid search (vector + BM25)
+
+**Code Location:** [`rag-series/02-embeddings-indexes/`](rag-series/02-embeddings-indexes/)
+
 **Coming in RAG Series:**
-- Blog 2.2: Vector databases (FAISS, Pinecone, Chroma)
 - Blog 2.3: Full RAG pipeline with LLM generation
 - Blog 2.4: Production RAG systems and deployment
 

@@ -39,13 +39,25 @@ This is **Series 2** of the complete Data Science learning path, focusing on how
 
 [📖 Read Blog 2.1](https://medium.com/@sadikkhadeer/rag-fundamentals-solving-the-knowledge-problem-7d4f6b0eda3a)
 
-### 🔮 Complete Blog Series Roadmap
+### 📖 Blog 2.2: Embeddings, Indexes & Retrieval Mechanics  
+**Directory:** `02-embeddings-indexes/`
 
-**Blog 2.2:** Embeddings, Indexes & Retrieval Mechanics
-- **Topics:** Understanding embeddings, distance metrics, indexing algorithms
-- **Tech:** FAISS, Pinecone, Chroma, Weaviate, HNSW, IVF, PQ compression
-- **Goal:** Master the "engine room" of RAG - how retrieval actually works
-- **Status:** Coming Soon
+**What you'll learn:**
+- Embedding fundamentals and semantic meaning representation
+- Similarity metrics: cosine, dot product, Euclidean distance
+- Indexing structures: FAISS (Flat, HNSW, IVF, PQ) with benchmarking
+- Vector databases: Chroma and Qdrant with production features
+- Complete RAG pipeline integration with hybrid search (vector + BM25)
+
+**Key Examples:**
+- Comprehensive FAISS implementations and benchmarking
+- Production vector database setup with metadata filtering
+- Performance comparison between different indexing approaches
+- End-to-end RAG pipeline with hybrid search
+
+[📖 Read Blog 2.2](https://medium.com/@sadikkhadeer/embeddings-indexes-retrieval-mechanics-7d1f189b91c2)
+
+### 🔮 Complete Blog Series Roadmap
 
 **Blog 2.3:** From Retrieval to Answers — The Full RAG Pipeline  
 - **Topics:** Context injection, chunking strategies, ranking & re-ranking
@@ -114,10 +126,10 @@ According to the master roadmap, you should be here if you've completed:
 - **Blog 1.4:** Connecting AI to External Data - APIs, embeddings basics
 
 **📍 Current Position:**
-- **Blog 2.1:** RAG Fundamentals ← **Active Development & Testing Complete**
+- **Blog 2.1:** RAG Fundamentals ✅ **Complete & Tested**
+- **Blog 2.2:** Embeddings, Indexes & Retrieval Mechanics ✅ **Complete & Tested**
 
 **🔮 Next Steps:**
-- **Blog 2.2:** Embeddings & Vector Databases (Coming Soon)
 - **Blog 2.3:** Full RAG Pipeline (Coming Soon)
 - **Blog 2.4:** Production RAG Systems (Coming Soon)
 
@@ -139,7 +151,15 @@ rag-series/
 │       ├── embedding_visualization.py   # 2D plots ✅  
 │       ├── rag_concepts_demo.py          # Complete concepts ✅
 │       └── demo_all_rag_fundamentals.py # Master runner ✅
-├── 02-embeddings-indexes/       # Blog 2.2 - Planned
+├── 02-embeddings-indexes/       # Blog 2.2 - COMPLETE & TESTED ✅
+│   ├── README.md               # Comprehensive guide ✅
+│   ├── examples/               # All examples working ✅
+│   │   ├── 01_embeddings_fundamentals.py    # Core concepts ✅
+│   │   ├── 02_similarity_metrics.py         # Similarity measures ✅
+│   │   ├── 03_indexing_structures.py        # FAISS implementations ✅
+│   │   ├── 04_vector_databases.py           # Chroma & Qdrant ✅
+│   │   └── 05_complete_rag_pipeline.py      # End-to-end integration ✅
+│   └── requirements.txt        # All dependencies ✅
 ├── 03-rag-pipeline/            # Blog 2.3 - Planned 
 └── 04-production-rag/          # Blog 2.4 - Planned
 ```
@@ -153,14 +173,17 @@ rag-series/
 
 ## 🔑 Key Technologies Covered
 
-### Current (Blog 2.1)
-- **sentence-transformers** - Semantic embeddings
+### Current (Blogs 2.1 & 2.2)
+- **sentence-transformers** - Semantic embeddings and model comparison
 - **scikit-learn** - Similarity metrics and utilities
-- **numpy** - Numerical computations
-- **matplotlib** - Embedding visualization
+- **numpy** - Numerical computations and vector operations
+- **matplotlib** - Embedding visualization and analysis
+- **FAISS** - Efficient similarity search and indexing (Flat, HNSW, IVF, PQ)
+- **Chroma** - Vector database with metadata filtering
+- **Qdrant** - Production-scale vector database with advanced features
+- **rank-bm25** - Keyword search for hybrid retrieval
 
 ### Upcoming in RAG Series
-- **Blog 2.2:** FAISS, Pinecone, Chroma, Weaviate - Vector databases & indexing
 - **Blog 2.3:** Cross-encoders, RAGAS, TruLens - Evaluation & re-ranking
 - **Blog 2.4:** OpenAI/Anthropic APIs, LangChain - LLM integration & production
 - **Advanced:** Multi-modal RAG, agentic RAG, hybrid search patterns
@@ -202,6 +225,7 @@ After completing the RAG series, you will:
 ### 📖 Blog Series Links
 - **[Series Hub](https://medium.com/@sadikkhadeer/data-science-series-complete-learning-path-updated-weekly-83611dea41fb)** - Complete learning path, updated weekly
 - **[Blog 2.1](https://medium.com/@sadikkhadeer/rag-fundamentals-solving-the-knowledge-problem-7d4f6b0eda3a)** - RAG Fundamentals: Solving the Knowledge Problem ✅ Published
+- **[Blog 2.2](https://medium.com/@sadikkhadeer/embeddings-indexes-retrieval-mechanics-7d1f189b91c2)** - Embeddings, Indexes & Retrieval Mechanics ✅ Published
 - **[GitHub Repository](https://github.com/sadikshaikh07/datascience_series_code.git)** - All working code examples
 
 ### 🏗️ Prerequisites (Series 1)
@@ -260,4 +284,4 @@ According to the comprehensive roadmap, RAG is a **core technology** that bridge
 
 *Part of the comprehensive [Data Science Series](https://medium.com/@sadikkhadeer/data-science-series-complete-learning-path-updated-weekly-83611dea41fb) - Your complete learning path from AI fundamentals to advanced specializations. Follow the roadmap for optimal learning progression.*
 
-**✨ Up Next:** Blog 2.2 - Embeddings, Indexes & Retrieval Mechanics (Coming Soon)
+**✨ Up Next:** Blog 2.3 - From Retrieval to Answers — The Full RAG Pipeline (Coming Soon)
