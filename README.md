@@ -76,7 +76,7 @@ datascience_series_code/
 ├── 📁 rag-series/                      # 🔍 SERIES 2 - Knowledge systems
 │   ├── 01-rag-fundamentals/            # Blog 2.1 ✅ COMPLETE & TESTED
 │   ├── 02-embeddings-indexes/          # Blog 2.2 ✅ COMPLETE & TESTED
-│   ├── 03-rag-pipeline/               # Blog 2.3 📅 PLANNED  
+│   ├── 03-rag-pipeline/               # Blog 2.3 ✅ COMPLETE & TESTED  
 │   └── 04-production-rag/             # Blog 2.4 📅 PLANNED
 │ 
 ├── 📁 traditional-ml/                  # 📊 SERIES 3 - Data science foundations 📅 PLANNED
@@ -109,10 +109,10 @@ datascience_series_code/
 
 ### ✅ **Completed & Tested**
 - **Series 1: AI Fundamentals & Agent Basics** - All 5 blogs with working code
-- **Series 2: RAG Systems** - Blogs 2.1 & 2.2 complete with comprehensive examples
+- **Series 2: RAG Systems** - Blogs 2.1-2.3 complete with comprehensive examples
 
 ### 🚧 **In Development**
-- **Series 2: RAG Systems** - Blogs 2.3-2.4 (planned)
+- **Series 2: RAG Systems** - Blog 2.4 (planned)
 - **Series 3: Traditional ML** - Foundation series (parallel with Series 2)
 
 ### 📋 **Roadmap Status**
@@ -139,8 +139,8 @@ This repository accompanies the **Complete Data Science & AI Blog Series** publi
 ### 🔍 **Available Now: RAG Systems & Knowledge Management** ✅
 [📖 Read Blog 2.1: RAG Fundamentals](https://medium.com/@sadikkhadeer/rag-fundamentals-solving-the-knowledge-problem-7d4f6b0eda3a)  
 [📖 Read Blog 2.2: Embeddings, Indexes & Retrieval Mechanics](https://medium.com/@sadikkhadeer/embeddings-indexes-retrieval-mechanics-7d1f189b91c2)
-
-**Status:** Blogs 2.1 & 2.2 Complete & All Code Tested ✅
+[📖 Read Blog 2.3: From Retrieval to Answers](https://medium.com/@sadikkhadeer/from-retrieval-to-answers-the-full-rag-pipeline-c284178c8a5b)
+**Status:** Blogs 2.1-2.3 Complete & All Code Tested ✅
 
 **Blog 2.1 Topics:**
 - RAG fundamentals and core concepts (corpus, chunks, embeddings)
@@ -157,11 +157,19 @@ This repository accompanies the **Complete Data Science & AI Blog Series** publi
 - Indexing structures: FAISS (Flat, HNSW, IVF, PQ) with benchmarking
 - Vector databases: Chroma and Qdrant with production features
 - Complete RAG pipeline integration with hybrid search (vector + BM25)
-
 **Code Location:** [`rag-series/02-embeddings-indexes/`](rag-series/02-embeddings-indexes/)
 
+**Blog 2.3 Topics:**
+- Context window management strategies for different LLM limits
+- Advanced chunking techniques (fixed-size, semantic, hybrid, recursive)
+- Multi-modal search variants (keyword BM25, semantic, hybrid)
+- Sophisticated ranking and re-ranking pipelines
+- Production-grade safety and filtering mechanisms  
+- Comprehensive RAG evaluation frameworks
+- Complete end-to-end RAG system integration
+**Code Location:** [`rag-series/03-rag-pipeline/`](rag-series/03-rag-pipeline/)
+
 **Coming in RAG Series:**
-- Blog 2.3: Full RAG pipeline with LLM generation
 - Blog 2.4: Production RAG systems and deployment
 
 ### 📊 **Coming Next: Traditional Machine Learning Foundations** (Series 3)
